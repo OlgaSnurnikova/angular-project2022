@@ -1,0 +1,12 @@
+.movie-picture {
+  width: 40%;
+  height: 40%;
+}
+.movies-container{
+  padding: 0;
+}
+.movie-card{
+  width: 250px;
+  padding: 10px;
+}
+

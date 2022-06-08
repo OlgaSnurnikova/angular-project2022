@@ -1,0 +1,23 @@
+.container{
+  display: flex;
+  justify-content: space-between;
+  background-color: silver;
+  padding: 20px 40px;
+  font-size: 18px;
+}
+.movies-list a{
+  text-decoration: none;
+  color: black;
+}
+.user-container{
+  background-color: #1976d2;
+  padding: 5px;
+  border-radius: 50%;
+}
+.genre a{
+  text-decoration: none;
+  color: black;
+}
+.user-name{
+  color: snow;
+}

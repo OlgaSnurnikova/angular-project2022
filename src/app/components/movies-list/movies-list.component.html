@@ -1,0 +1,11 @@
+<div class="movies-container">
+  <app-movie-card *ngFor="let movie of movies" [movie]="movie"></app-movie-card>
+  <router-outlet></router-outlet>
+</div>
+
+<div class="navigation">
+  <button (click)="pageFirst(1)" class="nav-btn">Page1</button>
+  <button (click)="pagePrev(1)" class="nav-btn">PrevPage</button>
+  <button (click)="pageNext(2)" class="nav-btn">NextPage</button>
+</div>
+

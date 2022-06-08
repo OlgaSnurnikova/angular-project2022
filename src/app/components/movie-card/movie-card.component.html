@@ -1,0 +1,6 @@
+<div class="movie-card">
+  <div class="movie-name">{{movie.title}}</div>
+  <div class="movie-name">Popularity:{{movie.popularity}}</div>
+  <img class="movie-picture" src="https://image.tmdb.org/t/p/w500{{movie.poster_path}}" alt="{{movie.title}}" routerLink="{{movie.id}}" [state]="{movie}">
+</div>
+
